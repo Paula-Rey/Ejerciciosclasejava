@@ -1,0 +1,67 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Paula Rey");
+    System.out.println("Integer:" + 10 +
+                       "Double:" + 3.14 +
+                       "Boolean:" + true);
+//Variables tipadas (declaradas))
+    int numInt = 9;
+    double numDouble = 8.4;
+    boolean numBoolean = false;
+    char numChar = 'A'; //Single quotes for char
+    String numString = "Paula"; //String is a class
+
+    System.out.println("Integer:" + numInt +
+                       "tDouble:" + 3.14 +
+                       "Boolean:" + true);
+
+  //Variables no tipadas (declaradas)
+    
+    int tnumInt = 9;
+    double tnumDouble = 8.4;
+    boolean tnumBoolean=false;
+    char tnumChar='A'; //Single quotes for char
+    String tnumString ="Paula"; //String is a class
+    byte edad = 20;
+    short numShort = 3;
+    long numLong = 3000000000L;
+    //int [ ] numArray = {1,2,3,4,5}; 
+
+    System.out.println( "tIntegers:" + numInt +
+                       "tDouble:" + numDouble +
+                       "Boolean:" + numBoolean +
+                       "Char:" + numChar +
+                       "String: " + numString +
+                       "Byte:" + edad +
+                       "Short:" + numShort +
+                       "Long:" + numLong);
+
+    int num1 = 5;
+    int num2 = 2;
+    int suma = num1 + num2;
+    int resta = num1 - num2;
+    int mult = num1 * num2;
+    int div = num1 / num2;
+    int mod = num1 % num2;
+    System.out.println ("Suma:" + suma +
+                        suma +
+                          "Resta:" + resta +
+                        "Multiplicacion:" + mult +
+                        "Division:" + div +
+                        "Modulo:" + mod);
+    
+                      
+                      
+      
+    
+  }
+
+  // @Test
+  // void addition() {
+  //     assertEquals(2, 1 + 1);
+  // }
+}
